@@ -1,0 +1,9 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+1. Read the documentation of sidebarLayout() to determine the width (in columns) of the sidebar and the main panel. Can you recreate its appearance using fluidRow() and column()? What are you missing?
+
+sidebar = 4, main panel = 8
+No -- you are missing fluidPage()
